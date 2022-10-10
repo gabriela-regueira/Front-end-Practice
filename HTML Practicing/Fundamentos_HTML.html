@@ -1,7 +1,7 @@
 <!DOCTYPE html> <!--DICA: Apertando "!+tab" o VSCode autocompleta todo esse códig introdutório; Essa é uma flag obrigatória que indica que queremos usar os recursos do HTML5-->
 <html> <!-- Esse é o nosso "root element"; Todo o código deve estar contido aqui-->
     <head><!--Na tag head ficam os MetaDados do código: título, script, styles cheets; Esses são elementos lidos pela máquina e não pelo usuário-->
-        <title>Título da página</title> <!--Nessa tag colocamos a forma como o link da página irá aparecer no google, e na Aba do browser-->
+        <title>Praticando HTML</title> <!--Nessa tag colocamos a forma como o link da página irá aparecer no google, e na Aba do browser-->
     </head>
     <body>
         <h1>H1 - h6 são elementos para títulos</h1>
@@ -14,7 +14,19 @@
         </ul>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a é um elemento para gerar hyperlinks (anchor tag); Toda anchor tag precisa ter um "atribute" que é uma referência que vai dentro da tag; Nesse caso indica o endereço para onde aquele link direciona ao ser clicado</a>
         <img src="https://st2.depositphotos.com/6544740/9337/i/600/depositphotos_93376372-stock-photo-sunset-over-sea-pier.jpg" alt="deck na beira-do-mar com por-do-sol">
-        <p>A imagem (img) é um elemento que não tem abertura e fechamento, assim como a anchor tag, ela recebe os atributos direto dentro da tag; são eles "src" que é "source" o endereço da imagem e "alt" que é a descrição da imagem para acessibilidade</p>
+        <p>A imagem (img) é um elemento que não tem abertura e fechamento, ela recebe os atributos direto dentro da tag; são eles "src" que é "source" o endereço da imagem e "alt" que é a descrição da imagem para acessibilidade</p>
+        <div>Div é um elemento do tipo "block" que serve para agrupar conteúdos; é um conteiner genérico</div>
+        <span>Span faz o mesmo que o div, só que é do tipo "inline"; É legal usar esse conteineres para agrupar conteúdos e colocar estilos CSS neles; O span se usa geralmente em trechos de textos</span>
+        <section>Section tem a mesma função que um Div, só que também tem uma função "semântica", ou seja, ajuda a seccionar partes do conteúdo, usando o termo correto, facilitando a leitura de um leitor de telas por exemplo. Assim como o div e span, você pode adicionar estilo</section>
+        <hr> 'hr' adiciona uma linha à página; Essa linha pode ser estilizada depois com CSS
+        No meu portfólio, eu poderia fazer uma "imagem dele", onde eu linko todas os elementos utilizados de HTML e explico o porquê
+        <br>
+        <sup>'sup' fica acima</sup> algo no meio
+        <sub>'sub' fica abaixo</sub>
+        <p>HTML Entities são símbolos, caracteres especiais que para serem corretamente exibidos, eles têm um código
+            Por exemplo: &#169
+            É preciso ter cuidado porque alguns caracteres são reservados para linguagem de código, como por exemplo o "menor que" e "maior que"
+        </p>
         
     </body>
 </html>
