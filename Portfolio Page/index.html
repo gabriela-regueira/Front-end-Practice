@@ -45,16 +45,21 @@
         <!--Add aqui MEUS PROJETOS também; Avalie meus Projetos; O que achou? Tem dicas para o meu currículo e portfólio? Me ajude a melhora-lo! Toda sugestão é bem vinda -->
     </section>
     <section>
+        <h2>Meus Projetos</h2>
+        <label for="rating">Avaliação:</label>
+        <input  type="range" max="5" step="0.5" value="1">
+    </section>
+    <section>
         <h3>Vamos trocar uma ideia?</h3>
         <!-- Add um forms aqui pra pessoa me mandar email
         -->
-        <form method="post" action="mailto.php">
+        <form method="post" action="">
             <label for="nome">Nome:</label>
             <input type="text" placeholder="Seu Nome" name="nome" id="nome">
             <label for="email">Email:</label>
             <input type="email" placeholder="Seu email" name="email" id="email">
             <label for="msg">Mensagem:</label>
-            <input type="text" placeholder="Manda aqui sua mensagem, dúvida, sugestão...vamos bater um papo!" name="mensagem" id="msg">
+            <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="Manda aqui sua mensagem, dúvida, sugestão...vamos bater um papo!"></textarea>
             <button type="submit">Enviar!</button>
         </form>
     </section>
