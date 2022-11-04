@@ -1,6 +1,18 @@
+body{
+    margin:0 1%;
+}
 img{
     width:30%;
 }
+nav{
+    font-family: 'Chango', cursive;
+    font-size: 1.1em;
+    padding: 1em 0;
+    border-bottom: 0.2em solid pink;
+}
 #container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content:space-between;
 }
