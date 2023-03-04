@@ -1,0 +1,36 @@
+
+body{
+  background-color:#FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  color: #7D7987;
+  text-align: center;
+}
+main{
+  width: 592px;
+  margin:auto;
+}
+div img{
+  margin-bottom:72px;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  color:#000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 56px;
+  margin-bottom:32px;
+}
+h1 span{
+  font-weight: bold;
+}
+span{
+  color:#FF9900;
+}
+#linkscontato a {
+  margin-inline: 5px;
+  text-align:center;
+}
+footer img{
+  position:absolute;
+}
