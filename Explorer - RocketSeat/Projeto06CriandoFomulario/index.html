@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+  <title>Mentoria</title>
+</head>
+<body>
+  <main>
+    <header>
+      <section class="text">
+        <h1>MENTORIA</h1>
+        <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+      </section>
+    </header>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label class="text" for="name">Nome</label>
+        <input type="text" name="name" id="name">
+        <label class="text" for="surname">Sobrenome</label>
+        <input type="text" name="surname" id="surname">
+        <label class="text" for="email">Email <span>(digite um email válido)</span></label>
+        <input type="email" name="email" id="email">
+        <label class="text" for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+        <input type="password" name="password" id="password">
+      </fieldset>
+      <fieldset>
+        <legend>Informações do Mentor</legend>
+        <label class="text" for="mentorName">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+        <input type="text" name="mentorName" id="mentorName">
+      </fieldset>
+      <fieldset>
+        <legend>Seus Horários Disponíveis</legend>
+        <h2>Primeira Mentoria</h2>
+        <label class="text" for="firstDate">Data <span>(DD/MM/AAAA)</span></label>
+        <input type="datetime" name="firstDate" id="firstDate">
+      </fieldset>
+    </form>
+    <div>
+      <button type="submit">Salvar</button>
+    </div>
+  </main>
+  
+</body>
+</html>
