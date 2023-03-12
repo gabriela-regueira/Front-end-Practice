@@ -21,13 +21,15 @@
     <form action="" method="get">
       <fieldset>
           <legend>Informações Pessoais</legend>
-          <div class="field-wrapper">
-            <label class="text" for="name">Nome</label>
-            <input type="text" name="name" id="name">
-          </div>
-          <div class="field-wrapper">
-            <label class="text" for="surname">Sobrenome</label>
-            <input type="text" name="surname" id="surname">
+          <div class="col-2">
+            <div class="field-wrapper">
+              <label class="text" for="name">Nome</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div class="field-wrapper">
+              <label class="text" for="surname">Sobrenome</label>
+              <input type="text" name="surname" id="surname">
+            </div>
           </div>
           <div class="field-wrapper">
             <label class="text" for="email">Email <span>(digite um email válido)</span></label>
@@ -40,17 +42,46 @@
       </fieldset>
       <fieldset>
         <legend>Informações do Mentor</legend>
-        <label class="text" for="mentorName">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-        <input type="text" name="mentorName" id="mentorName">
+        <div class="field-wrapper">
+          <label class="text" for="mentorName">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+          <input type="text" name="mentorName" id="mentorName">
+        </div>
       </fieldset>
       <fieldset>
         <legend>Seus Horários Disponíveis</legend>
         <h2>Primeira Mentoria</h2>
-        <label class="text" for="firstDate">Data <span>(DD/MM/AAAA)</span></label>
-        <input type="datetime" name="firstDate" id="firstDate">
+        <div class="col-3">
+          <div class="field-wrapper">
+            <label class="text" for="firstDate">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" name="firstDate" id="firstDate">
+          </div>
+          <div class="field-wrapper">
+            <label class="text" for="firstTime">Das</label>
+            <input type="time" name="firstTime" id="firstTime">
+          </div>
+          <div class="field-wrapper">
+            <label class="text" for="lastTime">Até</label>
+            <input type="time" name="lastTime" id="lastTime">
+          </div>
+        </div>
+        <h2>Segunda Mentoria</h2>
+        <div class="col-3">
+          <div class="field-wrapper">
+            <label class="text" for="secondDate">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" name="secondDate" id="secondDate">
+          </div>
+          <div class="field-wrapper">
+            <label class="text" for="firstTime2">Das</label>
+            <input type="time" name="firstTime2" id="firstTime2">
+          </div>
+          <div class="field-wrapper">
+            <label class="text" for="lastTime2">Até</label>
+            <input type="time" name="lastTime2" id="lastTime2">
+          </div>
+        </div>
       </fieldset>
     </form>
-    <div>
+    <div class="submit-button">
       <button type="submit">Salvar</button>
     </div>
   </main>

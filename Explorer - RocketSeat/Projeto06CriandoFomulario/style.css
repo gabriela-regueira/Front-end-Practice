@@ -10,6 +10,7 @@ body{
 }
 main{
   display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
 }
@@ -33,38 +34,41 @@ header{
   left:0;
   top:0;
 }
-h1, legend{
+h1, legend,h2{
   font-family: 'Staatliches';
   font-style: normal;
   font-weight: 400;
   text-transform:uppercase;
+  color: #535971;
 }
 h1{
   font-size: 48px;
   line-height: 60px;
   color: #FFFFFF;
 }
+h2{
+  font-size: 20px;
+  margin-top: 16px;
+}
 legend{
   font-size: 24px;
   line-height: 34px;
-  color: #535971;
 
   border-bottom: 1px solid #E6E6F0;
-  padding-bottom:16px;
-  margin-bottom:20px;
   width:100%;
+  margin-bottom:20px;
+  padding-bottom:16px;
 }
 label{
   font-size: 14px;
   line-height: 24px;
   color: #4E4958;
-  margin:16px 0px 8px;
+  margin: 16px 0px 8px;
 }
 .text p{
   font-size: 20px;
   line-height: 30px;
   color: #FFFFFF;
-  margin-top:18px;
   width:417px;
 }
 form{
@@ -75,6 +79,9 @@ form{
   top:322px;
   border-radius:8px;
   padding:64px;
+  display:flex;
+  flex-direction:column;
+  gap:31px;
 }
 fieldset{
   border:none;
@@ -92,4 +99,39 @@ input{
   border-radius: 8px;
   height:56px;
   padding:0 24px;
+}
+
+.field-wrapper{
+  display:flex;
+  flex-direction: column;
+
+}
+
+label span:hover{
+  color:#535971;
+}
+
+.col-3{
+  display:flex;
+  gap:22px
+}
+.col-3 > div:nth-child(1){
+  width:200%;
+}
+.col-2{
+  display:flex;
+  gap:22px;
+}
+.col-2 div, .col-3 div{
+  width:100%;
+}
+::-webkit-calendar-picker-indicator{
+    display: none;
+}
+.submit-button{
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  height:160px;
+  position:relative;
+  
 }
