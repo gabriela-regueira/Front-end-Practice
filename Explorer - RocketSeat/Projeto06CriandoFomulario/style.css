@@ -109,16 +109,12 @@ label span:hover{
   color:#535971;
 }
 
-.col-3{
+.col-3, .col-2{
   display:flex;
   gap:22px
 }
 .col-3 > div:nth-child(1){
   width:200%;
-}
-.col-2{
-  display:flex;
-  gap:22px;
 }
 .col-2 div, .col-3 div{
   width:100%;
